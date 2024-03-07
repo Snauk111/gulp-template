@@ -33,9 +33,9 @@ const paths = {
     watch: './src/assets/images/**/*.{jpg,jpeg,png,gif,svg}'
   },
   fonts: {
-    src: './src/assets/fonts/**/*.{ttf,woff,woff2}',
+    src: './src/assets/fonts/**/*.{otf,ttf,woff,woff2}',
     dist: './dist/assets/fonts/',
-    watch: './src/assets/fonts/**/*.{ttf,woff,woff2}'
+    watch: './src/assets/fonts/**/*.{otf,ttf,woff,woff2}'
   },
   sprites: {
     src: './src/sprite/*.svg',

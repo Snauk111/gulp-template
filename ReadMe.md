@@ -1,1 +1,1 @@
-# Gulp-сборка
+# Gulp-сборка для сайта berger-kovsh.ru

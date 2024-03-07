@@ -12,15 +12,17 @@
     "prettier:fix": "prettier --write src/**/*{.css,.scss}",
     "eslint": "eslint src/**/*.js",
     "eslint:fix": "eslint src/**/*.js --fix",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "task": "gulp --tasks"
   },
-  "author": "arloktev",
+  "author": "arloktev&snauk",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "browser-sync": "^2.27.7",
     "cross-env": "^7.0.3",
     "del": "^6.0.0",
+    "editorconfig": "^1.0.2",
     "eslint": "^8.7.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
@@ -34,6 +36,7 @@
     "gulp-pug": "5.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^2.0.3",
     "gulp-svgstore": "^9.0.0",
     "postcss": "^8.3.11",
     "postcss-csso": "^5.0.1",
@@ -44,5 +47,12 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "fslightbox": "^3.4.1",
+    "inputmask": "^5.0.8",
+    "swiper": "^9.3.2",
+    "validator": "^13.9.0"
   }
 }
